@@ -1,0 +1,9 @@
+#!/bin/sh
+
+npm install
+export PATH="node_modules/.bin:node_modules/hubot/node_modules/.bin:$PATH"
+export HUBOT_SLACK_TOKEN=USFZcWJXlYgkPf2BuiGGVHRo
+export HUBOT_SLACK_TEAM=tm-san-antonio
+export HUBOT_SLACK_BOTNAME=slackbot
+exec node_modules/.bin/hubot "$@"
+
