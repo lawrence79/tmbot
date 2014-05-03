@@ -2,8 +2,11 @@
 
 npm install
 export PATH="node_modules/.bin:node_modules/hubot/node_modules/.bin:$PATH"
-export HUBOT_SLACK_TOKEN=USFZcWJXlYgkPf2BuiGGVHRo
-export HUBOT_SLACK_TEAM=tm-san-antonio
-export HUBOT_SLACK_BOTNAME=slackbot
+
+export HUBOT_MINECRAFT_HOST="199.202.223.2"
+export HUBOT_MINECRAFT_PORT="25565"
+export HUBOT_MINECRAFT_USERNAME="emailme@lawrencenorton"
+export HUBOT_MINECRAFT_PASSWORD="nish1mit"
+
 exec node_modules/.bin/hubot "$@"
 
